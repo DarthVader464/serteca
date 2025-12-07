@@ -1,0 +1,54 @@
+version: '3.9'
+
+services:
+
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    restart: always
+    ports:
+      - "8081:80"
+    volumes:
+      - nextcloud_data:/var/www/html
+    environment:
+      MYSQL_HOST: db
+      MYSQL_DATABASE: nextcloud
+      MYSQL_USER: ssomoza
+      MYSQL_PASSWORD: abc123.
+      REDIS_HOST: redis
+    depends_on:
+      - db
+      - redis
+    networks:
+      - proxy_net
+
+  db:
+    image: mysql:8.0
+    container_name: nextcloud_db
+    restart: always
+    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
+    environment:
+      MYSQL_ROOT_PASSWORD: 123abc.
+      MYSQL_DATABASE: nextcloud
+      MYSQL_USER: ssomoza
+      MYSQL_PASSWORD: abc123.
+    volumes:
+      - nextcloud_db_data:/var/lib/mysql
+    networks:
+      - proxy_net
+
+  redis:
+    image: redis:alpine
+    container_name: nextcloud_redis
+    restart: always
+    networks:
+      - proxy_net
+
+networks:
+  proxy_net:
+    external: true
+
+volumes:
+  nextcloud_data:
+  nextcloud_db_data:
+

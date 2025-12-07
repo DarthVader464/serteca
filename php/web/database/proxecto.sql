@@ -1,0 +1,38 @@
+CREATE DATABASE IF NOT EXISTS proxecto_db;
+USE proxecto_db;
+
+DROP TABLE IF EXISTS usuarios;
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(50) NOT NULL UNIQUE,
+    contrasinal VARCHAR(255) NOT NULL,
+    rol ENUM('admin', 'usuario') NOT NULL DEFAULT 'usuario',
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DROP TABLE IF EXISTS carpetas;
+CREATE TABLE carpetas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL UNIQUE,
+    descripcion TEXT,
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DROP TABLE IF EXISTS arquivos;
+CREATE TABLE arquivos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    ruta VARCHAR(255) NOT NULL,
+    carpeta VARCHAR(100) NOT NULL,
+    fecha_subida TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DROP TABLE IF EXISTS nextcloud_config;
+CREATE TABLE IF NOT EXISTS nextcloud_config (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nextcloud_url VARCHAR(255) NOT NULL,
+    nextcloud_user VARCHAR(100) NOT NULL,
+    nextcloud_token TEXT NOT NULL,
+    activo TINYINT(1) DEFAULT 1,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

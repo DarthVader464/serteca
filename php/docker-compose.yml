@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  apache-php:
+    container_name: apache_php
+    build:
+      context: .
+      dockerfile: dockerfile
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web:/var/www/html
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    environment:
+      TZ: Europe/Madrid
+      MYSQL_HOST: mysql_db
+      MYSQL_DATABASE: proxecto_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: abc123.
+    depends_on:
+      - mysql_db
+    networks:
+      - proxy_net
+
+  mysql_db:
+    container_name: mysql_db
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: 123abc.
+      MYSQL_DATABASE: proxecto_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: abc123.
+      TZ: Europe/Madrid
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+      - ./web/database:/docker-entrypoint-initdb.d
+    networks:
+      - proxy_net
+
+networks:
+  proxy_net:
+    external: true
