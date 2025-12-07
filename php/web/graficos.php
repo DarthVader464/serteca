@@ -52,7 +52,6 @@ mysqli_close($conexion);
                     <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128120097&to=1765128420097&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-323&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
-                
                 <div class="grafico-card">
                     <div class="grafico-titulo">Uso de CPU</div>
                     <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128372241&to=1765128672241&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-20&__feature.dashboardSceneSolo=true" 

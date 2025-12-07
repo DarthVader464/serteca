@@ -88,7 +88,7 @@ if (isset($_POST["nome"]) || isset($_POST["contrasinal1"]) || isset($_POST["cont
                 }?></span>
             </div>
             <div class="buttons">
-                <input type="submit" class="btn btn-primary">
+                <input type="submit" class="btn btn-primary" value="Engadir">
                 <a href="usuarios.php" class="btn btn-default" >Cancelar</a>
                 <br>
 
