@@ -49,84 +49,84 @@ mysqli_close($conexion);
             <div class="graficos-grid">
                 <div class="grafico-card">
                     <div class="grafico-titulo">Node Exporter</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128120097&to=1765128420097&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-323&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-323&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
                 <div class="grafico-card">
                     <div class="grafico-titulo">Uso de CPU</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128372241&to=1765128672241&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-20&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-20&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
                 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Memoria RAM</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128372241&to=1765128672241&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-16&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-16&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
                 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Sys load</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128600115&to=1765128900115&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-155&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-155&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Swam</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128432243&to=1765128732243&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-21&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-21&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">CPU cores</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128600115&to=1765128900115&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-14&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-14&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Ram total</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128660120&to=1765128960120&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-75&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-75&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Swam total</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128660120&to=1765128960120&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-18&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-18&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Uptime</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128720120&to=1765129020120&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-15&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-15&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Uso CPU</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128840122&to=1765129140122&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-77&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-77&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Uso memoria</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128840122&to=1765129140122&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-78&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-78&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Uso red</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128900123&to=1765129200123&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-74&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-74&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Uso disco</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765128900123&to=1765129200123&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-152&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-152&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
                 <div class="grafico-card">
                     <div class="grafico-titulo">Lectura escritura disco</div>
-                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&from=1765129130325&to=1765129430325&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-9&__feature.dashboardSceneSolo=true" 
+                    <iframe src="http://192.168.0.108:3000/d-solo/rYdddlPWk/node-exporter-full?orgId=1&timezone=browser&var-ds_prometheus=ef6e556g2gkxsc&var-job=node-exporter&var-nodename=bf91dc78c25b&var-node=node-exporter:9100&refresh=1m&panelId=panel-9&__feature.dashboardSceneSolo=true" 
                         width="450" height="200" frameborder="0"></iframe>
                 </div>
 
