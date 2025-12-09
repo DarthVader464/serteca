@@ -10,8 +10,8 @@ if (isset($_POST["nome"]) || isset($_POST["contrasinal"])){
             $erro = "A contrasinal non pode estar baleira";
         }
     } else {
-        $nome = $_POST["nome"];
-        $contrasinal = $_POST["contrasinal"];
+        $nome = trim($_POST["nome"]);
+        $contrasinal = trim($_POST["contrasinal"]);
         require("conexion.php");
         
         $query = "SELECT * FROM usuarios WHERE usuario = '$nome'";

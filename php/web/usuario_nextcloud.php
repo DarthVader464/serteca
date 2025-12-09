@@ -1,6 +1,11 @@
 <?php 
 session_start(); 
 
+if (empty($_SESSION["nome"]) || $_SESSION["rol"] != "admin") {
+    header("Location: login.php");
+    exit();
+}
+
 if (isset($_POST["nome"]) || isset($_POST["contrasinal"])){
     if (empty($_POST["nome"]) || empty($_POST["contrasinal"])){
         if (empty($_POST["nome"])){

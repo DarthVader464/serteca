@@ -2,7 +2,7 @@
 session_start();
 require("conexion.php");
 
-if (empty($_SESSION["nome"])) {
+if (empty($_SESSION["nome"]) || $_SESSION["rol"] != "admin") {
     header("Location: login.php");
     exit();
 }

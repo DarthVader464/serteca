@@ -1,6 +1,11 @@
 <?php 
 session_start();
 
+if (empty($_SESSION["nome"]) || $_SESSION["rol"] != "admin") {
+    header("Location: login.php");
+    exit();
+}
+
 require("conexion.php");
 $query = "SELECT * FROM nextcloud_config WHERE activo = 1 LIMIT 1";
 $resultado = mysqli_query($conexion, $query);
