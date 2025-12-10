@@ -29,7 +29,7 @@ mysqli_close($conexion);
         <div class="menu-admin">
             <?php if ($rol == 'admin') { ?>
                 <a href="usuarios.php" class="btn-header">Usuarios</a>
-                <a href="subir_arquivos.php" class="btn-header">Subir Archivos</a>
+                <a href="subir_arquivos.php" class="btn-header">Subir Arquivos</a>
                 <a href="index.php" class="btn-header">Volver</a>
                 <a href="usuario_nextcloud.php" class="btn-header">Nextcloud</a>
             <?php } ?>

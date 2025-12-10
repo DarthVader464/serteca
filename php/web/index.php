@@ -49,7 +49,7 @@ $archivos_result = mysqli_query(
         <div class="menu-admin">
             <?php if ($rol == 'admin') { ?>
                 <a href="usuarios.php" class="btn-header">Usuarios</a>
-                <a href="subir_arquivos.php" class="btn-header">Subir Archivos</a>
+                <a href="subir_arquivos.php" class="btn-header">Subir Arquivos</a>
                 <a href="graficos.php" class="btn-header">Gráficos</a>
                 <a href="usuario_nextcloud.php" class="btn-header">Nextcloud</a>
             <?php } ?>
@@ -64,7 +64,7 @@ $archivos_result = mysqli_query(
 
     <main class="contenido-principal">
         <form action="index.php" method="post" class="form-buscador">
-            <input type="text" name="busqueda" placeholder="Buscar carpetas..." required>
+            <input type="text" name="busqueda" placeholder="Buscar cartafois..." required>
             <button type="submit">Buscar</button>
         </form>
 

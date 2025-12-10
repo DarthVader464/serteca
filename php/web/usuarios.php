@@ -40,7 +40,7 @@ $resultado = mysqli_query($conexion, "SELECT * FROM usuarios LIMIT ".(($paxina-1
         <div class="menu-admin">
         <?php if ($rol == 'admin') { ?>
             <a href="index.php" class="btn-header">Inicio</a>
-            <a href="subir_arquivos.php" class="btn-header">Subir Archivos</a>
+            <a href="subir_arquivos.php" class="btn-header">Subir Arquivos</a>
             <a href="graficos.php" class="btn-header">Gráficos</a>
             <a href="usuario_nextcloud.php" class="btn-header">Nextcloud</a>
         <?php } ?>
